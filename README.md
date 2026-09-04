@@ -1,16 +1,62 @@
-# React + Vite
+# TaskFlow – Kanban Board with Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskFlow is a React web application that helps users create, organize, and monitor team tasks. Tasks are arranged in three columns: TO DO, DOING, and DONE. The Dashboard summarizes task information using cards and charts.
 
-Currently, two official plugins are available:
+## Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Open TaskFlow](https://avanshorty.github.io/kanban-board/)
 
-## React Compiler
+## Project Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Create new tasks
+- Edit existing tasks
+- Delete tasks with a confirmation message
+- Move tasks between TO DO, DOING, and DONE
+- Assign a responsible person to each task
+- Select an existing category
+- Add new categories
+- Set start dates and due dates
+- Automatically record the completion date
+- Identify overdue tasks
+- Display task summary cards
+- Display tasks by status in a doughnut chart
+- Display tasks by category in a bar chart
+- Compare early, on-time, and late task completion
+- Save tasks and categories in Local Storage
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React JS
+- Vite
+- React Router
+- Chart.js
+- CSS
+- Local Storage
+
+## Basic Usage
+
+1. Open the live website.
+2. Click **Create Task** to add a task.
+3. Enter the task information and select a responsible person.
+4. Select an existing category or add a new category.
+5. Use the **Move to** dropdown to move tasks between columns.
+6. Click **Edit** to update a task.
+7. Click **Delete** to remove a task.
+8. Open the **Dashboard** page to view task summaries and charts.
+9. Refresh the page to confirm that the information remains saved.
+
+## Screenshots
+
+### Kanban Board
+
+![Kanban Board](screenshots/kanban_board.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+## Group Members
+
+- Ye Phone Pyae
+- Khun Ye Htet
+- Aunt Htoo Lin Win
